@@ -8,9 +8,6 @@ body {
     height: 100vh;
 }
 
-main {
-    height: 85vh;
-}
 
 
 nav {
@@ -122,6 +119,44 @@ h1 span {
     color:#DC228D
 }
 .modal-header h2{
-    color: #3c4493
+    color: #3c4493;
     color: #DC228D
+}
+
+header{
+    height: 10vh;
+}
+#logoNav{
+    height: 4rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer button{
+    background-color: #DC228D;
+    color: whitesmoke;
+}
+
+
+.pinkBtn{
+    background-color: #DC228D;
+    transition: .2;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pinkBtn:hover{
+    background-color: #b61a75;
+    color: whitesmoke;
 }

@@ -7,14 +7,10 @@
 body{
     height: 100vh;
 }
-main{
-    height: 85vh;
-}
 
 
-nav{
-    height: 15vh;
-}
+
+
 
 .logoNav{
     height: 4rem;
@@ -120,4 +116,42 @@ nav{
 
 .card{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header{
+    height: 10vh;
+}
+#logoNav{
+    height: 4rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer button{
+    background-color: #DC228D;
+    color: whitesmoke;
+}
+
+
+.pinkBtn{
+    background-color: #DC228D;
+    transition: .2;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pinkBtn:hover{
+    background-color: #b61a75;
+    color: whitesmoke;
 }
