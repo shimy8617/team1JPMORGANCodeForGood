@@ -11,10 +11,10 @@ main{
     height: 85vh;
 }
 
-
+/* 
 nav{
     height: 15vh;
-}
+} */
 
 .logoNav{
     height: 4rem;
@@ -105,4 +105,42 @@ nav{
 
 .modal-body{
     color: #3c4493;
+}
+
+header{
+    height: 10vh;
+}
+#logoNav{
+    height: 4rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer button{
+    background-color: #DC228D;
+    color: whitesmoke;
+}
+
+
+.pinkBtn{
+    background-color: #DC228D;
+    transition: .2;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pinkBtn:hover{
+    background-color: #b61a75;
+    color: whitesmoke;
 }
