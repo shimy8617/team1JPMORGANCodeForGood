@@ -58,7 +58,7 @@ nav{
 
 }
 
-.sections:active{
+.sections-toggle{
     flex: 7;
 }
 
@@ -67,3 +67,6 @@ nav{
     padding: 1rem;
 }
 
+.subtitulo{
+    color: whitesmoke;
+}
