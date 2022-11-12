@@ -1,12 +1,26 @@
 header{
     height: 10vh;
 }
-.logoNav{
+#logoNav{
     height: 4rem;
 }
 
 main{
     min-height: 80vh;
+}
+
+footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer button{
+    background-color: #DC228D;
+    color: whitesmoke;
 }
 
 
