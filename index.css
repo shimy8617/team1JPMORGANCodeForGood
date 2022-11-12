@@ -1,11 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
 }
 
-nav{
-    background-color: #DC228D;/* 
+nav {
+    background-color: #DC228D;
+    /* 
     border: 2px solid #3c4493; */
     width: 100vw;
     height: 22vh;
@@ -18,17 +22,17 @@ nav{
 
 
 
-body{
+body {
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 80vh;
     overflow: hidden;
-    background-image:url("assets/img/rugbyImage.jpg") ;
+    background-image: url("assets/img/rugbyImage.jpg");
     background-size: cover;
-    
+
 }
 
-#triangle-container{
+#triangle-container {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -36,7 +40,7 @@ body{
     position: relative;
 }
 
-#middle-triangle{
+#middle-triangle {
     width: 0;
     height: 0;
     border-left: 80vh solid #dc228d;
@@ -47,50 +51,51 @@ body{
     top: -72vh;
 }
 
-#logo{
+#logo {
     position: absolute;
-    top:58vh;
+    top: 58vh;
     z-index: 2;
 }
 
-a{
+a {
     z-index: 3;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 3rem;
+    font-family: 'Dosis' serif;
 }
 
-#educationLink{
+#educationLink {
     position: absolute;
-    left: 5vw;
+    left: 3.5vw;
     top: 40vh;
     transition: 500ms;
 }
 
-#educationLink:hover{
-transform: scale(1.1);
-color: black;
+#educationLink:hover {
+    transform: scale(1.1);
+    color: black;
 }
 
-#healthLink{
+#healthLink {
     position: absolute;
     right: 7vw;
     top: 40vh;
     transition: 500ms;
 }
 
-#healthLink:hover{
+#healthLink:hover {
     transform: scale(1.1);
     color: black;
-    }
+}
 
-#diversityLink{
+#diversityLink {
     position: absolute;
     top: 20vh;
     transition: 500ms;
 }
 
-#diversityLink:hover{
+#diversityLink:hover {
     scale: 1.1;
     color: black;
 }
@@ -100,7 +105,7 @@ color: black;
     padding: 1rem;
 }
 
-#sportsLink{
+#sportsLink {
     position: absolute;
     top: 6vh;
     left: calc(width/2 -50vw);
