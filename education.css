@@ -96,12 +96,41 @@ h1 span {
     width: 100%;
 }
 
-.prueba{
-    margin-top: 280px;
+.school{
+    margin-top: 320px;
     background-color: #fff;
     padding: 20px;
 }
 
 .speech {
     width: 800px
+}
+
+.speech-description {
+    margin: auto;
+}
+
+.resources a {
+    color: #000;
+    text-decoration: none;
+}
+
+#exampleModalLabel {
+    color: #3c4493
+}
+
+.school h2{
+    color:#DC228D
+}
+
+.speech-description h4{
+        color: #DC228D
+    }
+
+.modal-header h2 {
+    color: #3c4493  
+}
+
+.resources {
+    color: #DC228D
 }

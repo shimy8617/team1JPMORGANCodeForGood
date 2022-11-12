@@ -96,3 +96,32 @@ h1 span {
 .img-education {
     width: 100%;
 }
+
+.nutritionplan {
+    margin-left: 120px;
+}
+
+.nutritionplan h2{
+    color: #DC228D;
+}
+
+.news-articles a{
+    text-decoration: none;
+    color: #000;
+}
+
+.healthyplan {
+    width: 100%;
+}
+
+#exampleModalLabel {
+    color: #3c4493
+}
+
+.nutritionSpeech h2{
+    color:#DC228D
+}
+.modal-header h2{
+    color: #3c4493
+    color: #DC228D
+}
