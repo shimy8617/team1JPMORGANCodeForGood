@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+main{
+    height: 85vh;
+}
+
+
+nav{
+    height: 15vh;
+}
+
+.logoNav{
+    height: 4rem;
+}
+
+.section1{
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section2{
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.section3{
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section4{
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.sections{
+    height: 85vh;
+    width: 100%;
+    flex: 1;
+    transition: flex .5s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sections:hover{
+    flex: 1.2;
+
+}
+
+.sections-toggle{
+    flex: 9;
+}
+
+.sections-toggle:hover{
+    flex: 9;
+}
+
+.icon{
+    width: 8rem;
+    padding: 1rem;
+}
+
+.subtitulo{
+    color: whitesmoke;
+}
+
+.map{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.rotate{
+    transform: rotate(45);
+}
+
+.pinkBtn{
+    background-color: #DC228D;
+    transition: .2;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pinkBtn:hover{
+    background-color: #b61a75;
+    color: whitesmoke;
+
+}
+
+.modal-header{
+    background-color: #3c4493;
+    color: whitesmoke;
+}
+
+.modal-body{
+    color: #3c4493;
+}
+
+
+.pinkBg{
+    background-color:#DC228D;
+}
+
+.blueBg{
+    background-color: #3c4493;
+    color: whitesmoke;
+    height: 5rem;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
