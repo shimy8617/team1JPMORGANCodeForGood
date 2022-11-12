@@ -16,114 +16,136 @@
 
   <body>
     <header>
-
       <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/img/logoCP.png" id="logoNav" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly col-9"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >DEPORTES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >EDUCACIÓN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >DIVERSIDAD</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >SALÚD</a
+                >
+              </li>
+            </ul>
 
-          <div class="container-fluid">
-
-            <a class="navbar-brand" href="#"><img src="./assets/img/logoCP.png" id="logoNav" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              style="background-color: #dc228d"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly col-9">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">DEPORTES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">EDUCACIÓN</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">DIVERSIDAD</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">SALÚD</a>
-                </li>
-              </ul>
-
-              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="background-color: #dc228d;">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                
-
-            </div>
-            
-          </div>
-          
-        </nav>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="background-color: black; color:whitesmoke">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menú</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-  
-                    <a class="nav-link active" aria-current="page" href="/sports.html"
-  
-                      >Deportes</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Diversidad</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/education.html"
-                      >Educación</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/health.html"
-                      >Salud</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Eventos</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Nosotros</a
-                    >
-                  </li>
-                  <li style="font-size: 2rem;" class="d-flex align-items-center">Doná con <img src="./assets/img/logoMP.webp" alt="Logo de Mercado Pago" style="width: 150px;"></li>
-                  
-                </ul>
-                <img src="./assets/img/qr.jpeg" alt="QR de pago" style="width: 300px;" class="text-center">
-
           </div>
         </div>
-  </header>
+      </nav>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+        style="background-color: black; color: whitesmoke"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Menú</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/sports.html"
+                >Deportes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Diversidad</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/education.html"
+                >Educación</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/health.html"
+                >Salud</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Eventos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Nosotros</a
+              >
+            </li>
+            <li style="font-size: 2rem" class="d-flex align-items-center">
+              Doná con
+              <img
+                src="./assets/img/logoMP.webp"
+                alt="Logo de Mercado Pago"
+                style="width: 150px"
+              />
+            </li>
+          </ul>
+          <img
+            src="./assets/img/qr.jpeg"
+            alt="QR de pago"
+            style="width: 300px"
+            class="text-center"
+          />
+        </div>
+      </div>
+    </header>
 
     <main>
       <div class="mt-5">
         <h1><span>Educación</span></h1>
         <img class="img-education" src="./assets/img/education.png" alt="" />
       </div>
-
-      <!--       <div class="d-flex justify-content-evenly align-items-center">
-        <div class="section4 sections">
-          <img class="icon" src="" alt="" />
-          <h2 class="subtitulo">LA ESCUELA</h2>
-        </div>
-        <div class="section1 sections">
-          <img class="icon" src="" alt="" />
-          <h2 class="subtitulo">CURSOS</h2>
-        </div>
-        <div class="section2 sections">
-          <img class="icon" src="" alt="" />
-          <h2 class="subtitulo">CHARLAS</h2>
-        </div>
-        <div class="section3 sections">
-          <img class="icon" src="" alt="" />
-          <h2 class="subtitulo">BIBLIOGRAFIA</h2>
-        </div>
-      </div> -->
 
       <div
         class="d-flex justify-content-evenly align-items-center"
@@ -262,7 +284,8 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body d-flex align-items-center">
+            <div class="modal-body d-flex align-items-center flex-wrap">
+              <div class="col-12 d-flex">
               <div
                 class="d-flex flex-column col-6 text-center align-items-center"
               >
@@ -295,16 +318,28 @@
                     para el éxito
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div class="modal-body d-flex align-items-center"></div>
+
+                
+
+            
+
             <div class="modal-footer">
               <button type="button" class="btn pinkBtn" data-bs-dismiss="modal">
                 Volver a Educación
               </button>
             </div>
           </div>
+          </div>
+          <section class="learn-courses">      <div class="learn-text">        <h3 class="learn-subtitle">          Querías aprender más sobre todas estas temáticas?        </h3>        <h4 class="learn-subtitle-2">          Haces el curso introductorio en nuestra nueva plataforma de eLearning!        </h4>      </div>      <div class="learn-videos-section">        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/ga9g0ACZ-QY"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/_ePbhfkcApM"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/biiFkE1-lK4"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/DLQ5RiTOxWQ?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/Qi1M_gmA1fU?start=396"            title="YouTube video player"
+            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/mVUiHGMc2cY?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/aVIcxQ5Jwnc?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/AUq6C7Nfw8U?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/8rxGTwJ6CRM?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen          ></iframe>        </div>        <div class="learn-videos">          <iframe            width="560"            height="315"            src="https://www.youtube.com/embed/Dn431iXJ2Lw?start=396"            title="YouTube video player"            frameborder="0"            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"            allowfullscreen
+          ></iframe>        </div>      </div>    </section>
+
+          
+          
+          
+          
         </div>
+
       </div>
 
       <div
@@ -350,6 +385,7 @@
                 >
               </div>
             </div>
+
             <div class="modal-footer">
               <button type="button" class="btn pinkBtn" data-bs-dismiss="modal">
                 Volver a Educación
@@ -358,13 +394,12 @@
           </div>
         </div>
       </div>
-
     </main>
     <footer class="d-flex col-12 justify-content-center">
       <label for="">Suscribite a nuestro Newsletter!!</label>
-      <input type="text"> 
-      <button class="btn" style="background-color: #dc228d;">Enviar</button>
-  </footer>
+      <input type="text" />
+      <button class="btn" style="background-color: #dc228d">Enviar</button>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
