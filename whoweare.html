@@ -19,90 +19,158 @@
   <body>
     <div id="app">
       <header>
-
         <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"
+              ><img src="./assets/img/logoCP.png" id="logoNav" alt=""
+            /></a>
 
-            <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly col-11"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./sports.html"
+                    >DEPORTES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./education.html"
+                    >EDUCACIÓN</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./diversity.html"
+                    >DIVERSIDAD</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./health.html"
+                    >SALUD</a
+                  >
+                </li>
+              </ul>
 
-              <a class="navbar-brand" href="./index.html"><img src="./assets/img/logoCP.png" id="logoNav" alt=""></a>
-
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button
+                class="btn"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                style="background-color: #dc228d"
+              >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly col-11">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./sports.html">DEPORTES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./education.html">EDUCACIÓN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./diversity.html">DIVERSIDAD</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./health.html">SALUD</a>
-                  </li>
-                </ul>
-
-                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="background-color: #dc228d;">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  
-
-              </div>
-              
-            </div>
-            
-          </nav>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="background-color: black; color:whitesmoke">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">Menú</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-    
-                      <a class="nav-link active" aria-current="page" href="/sports.html"
-    
-                        >Deportes</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./diversity.html"
-                        >Diversidad</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/education.html"
-                        >Educación</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/health.html"
-                        >Salud</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./events.html"
-                        >Eventos</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./whoweare.html"
-                        >Nosotros</a
-                      >
-                    </li>
-                    <li style="font-size: 2rem;" class="d-flex align-items-center">Doná con <img src="./assets/img/logoMP.webp" alt="Logo de Mercado Pago" style="width: 150px;"></li>
-                    
-                  </ul>
-                  <img src="./assets/img/qr.jpeg" alt="QR de pago" style="width: 300px;" class="text-center">
-
             </div>
           </div>
-    </header>
+        </nav>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+          style="background-color: black; color: whitesmoke"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menú</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/sports.html"
+                  >Deportes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./diversity.html"
+                  >Diversidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/education.html"
+                  >Educación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/health.html"
+                  >Salud</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./events.html"
+                  >Eventos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./whoweare.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li style="font-size: 2rem" class="d-flex align-items-center">
+                Doná con
+                <img
+                  src="./assets/img/logoMP.webp"
+                  alt="Logo de Mercado Pago"
+                  style="width: 150px"
+                />
+              </li>
+            </ul>
+            <img
+              src="./assets/img/qr.jpeg"
+              alt="QR de pago"
+              style="width: 300px"
+              class="text-center"
+            />
+          </div>
+        </div>
+      </header>
 
       <main class="mb-3">
         <h2 class="m-5">QUIENES SOMOS</h2>
@@ -179,9 +247,15 @@
       </main>
       <footer class="d-flex col-12 justify-content-center">
         <label for="">Suscribite a nuestro Newsletter!!</label>
-        <input type="text" id="newsLetterInput"> 
-        <button class="btn" style="background-color: #dc228d;">Enviar</button>
-    </footer>
+        <input type="text" id="newsLetterInput" />
+        <button
+          class="btn"
+          style="background-color: #dc228d"
+          onclick="saveEmail()"
+        >
+          Enviar
+        </button>
+      </footer>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
@@ -190,6 +264,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./events.js"></script>
     <script src="./newsletter.js"></script>
