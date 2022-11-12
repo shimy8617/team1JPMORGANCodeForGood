@@ -1,9 +1,19 @@
-const section1 = document.querySelector(".section1");
-const section2 = document.querySelector(".section2");
-const section3 = document.querySelector(".section3");
-const section4 = document.querySelector(".section4");
+// const section1 = document.getElementById("rugbySection");
+// const section2 = document.getElementById("basketSection");
+// const section3 = document.getElementById("tenisSection");
+// const section4 = document.getElementById("futbolSection");
+// const sections = document.querySelectorAll(".sections");
+
+// function expandOrHideSection(){
+
+// }
 
 
-// function openTab() {
-//     cla
+// function openTab(hola) {
+//     hola.classList.toggle("sections-toggle")
+    
+
+    
+//     console.log(hola);
+
 // }
