@@ -11,8 +11,78 @@ nav{
 }
 
 body{
-    background-color: blue;
+    
     width: 100vw;
     height: 80vh;
     overflow: hidden;
+    background-image:url("assets/img/rugbyImage.jpg") ;
+    background-size: cover;
+    
+}
+
+#triangle-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+#middle-triangle{
+    width: 0;
+    height: 0;
+    border-left: 80vh solid #dc228d;
+    border-top: 50vw solid transparent;
+    border-bottom: 50vw solid transparent;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -72vh;
+}
+
+#logo{
+    position: absolute;
+    top:58vh;
+    z-index: 2;
+}
+
+a{
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+#educationLink{
+    position: absolute;
+    left: 5vw;
+    top: 40vh;
+    transition: 500ms;
+}
+
+#educationLink:hover{
+transform: scale(1.1);
+color: black;
+}
+
+#healthLink{
+    position: absolute;
+    right: 7vw;
+    top: 40vh;
+    transition: 500ms;
+}
+
+#healthLink:hover{
+    transform: scale(1.1);
+    color: black;
+    }
+
+#diversityLink{
+    position: absolute;
+    top: 20vh;
+    transition: 500ms;
+}
+
+#diversityLink:hover{
+    scale: 1.1;
+    color: black;
 }
