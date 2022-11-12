@@ -5,14 +5,69 @@
 }
 
 nav{
-    background-color: red;
+    background-color: #DC228D;/* 
+    border: 2px solid #3c4493; */
     width: 100vw;
-    height: 20vh;
+    height: 22vh;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+
+
+
 body{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 80vh;
     overflow: hidden;
+}
+
+.icon {
+    width: 8rem;
+    padding: 1rem;
+}
+
+#sportsLink{
+    position: absolute;
+    top: 6vh;
+    left: calc(width/2 -50vw);
+    z-index: 3;
+    color: white;
+    font-size: 3rem;
+}
+
+.section1 {
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section2 {
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.section3 {
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section4 {
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.sections {
+    height: 20vh;
+    width: 100%;
+    flex: 1;
+    transition: flex .5s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
