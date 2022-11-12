@@ -1,0 +1,23 @@
+header{
+    height: 10vh;
+}
+.logoNav{
+    height: 4rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+
+.pinkBtn{
+    background-color: #DC228D;
+    transition: .2;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.pinkBtn:hover{
+    background-color: #b61a75;
+    color: whitesmoke;
+}
