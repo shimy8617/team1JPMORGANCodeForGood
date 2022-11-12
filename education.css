@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 85vh;
+}
+
+
+nav {
+    height: 15vh;
+}
+
+.logoNav {
+    height: 4rem;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h1 span {
+    background-color: #e398c4;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.section1 {
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section2 {
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.section3 {
+    background-color: #3c4493;
+    width: 100%;
+
+}
+
+.section4 {
+    background-color: #DC228D;
+    width: 100%;
+}
+
+.sections {
+    height: 85vh;
+    width: 100%;
+    flex: 1;
+    transition: flex .5s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sections:hover {
+    flex: 1.2;
+
+}
+
+.sections-toggle {
+    flex: 7;
+}
+.icon {
+    width: 8rem;
+    padding: 1rem;
+}
+
+.subtitulo {
+    color: whitesmoke;
+}
+
+.form-education{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px
+}
+
+.img-education {
+    width: 100%;
+}
+
+.prueba{
+    margin-top: 280px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.speech {
+    width: 800px
+}
